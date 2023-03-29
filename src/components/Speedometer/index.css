@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading1 {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+
+.final {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading2 {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  align-self: center;
+}
+.para {
+  color: #cbd5e1;
+  font-size: 15px;
+  text-align: center;
+  align-self: center;
+}
+.accelerate {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: 0px;
+  margin: 10px;
+  padding: 13px;
+  border-radius: 7px;
+  cursor: pointer;
+  outline: none;
+}
+
+.brake {
+  background-color: transparent;
+  color: #ffffff;
+  border-width: 1px;
+  border-color: #ffffff;
+  margin: 10px;
+  padding: 13px;
+  border-radius: 7px;
+  cursor: pointer;
+  outline: none;
+}
+
+.bt-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sp {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.pic {
+  height: 180px;
+  width: 600px;
+}
